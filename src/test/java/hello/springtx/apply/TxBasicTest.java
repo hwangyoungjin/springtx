@@ -39,6 +39,10 @@ public class TxBasicTest {
         basicService.nonTx();
     }
 
+    /**
+     * @Slf4j 를 BasicService class에 붙임으로써
+     * 어느 class에서 log를 찍는지 더 정확하게 알 수 있다.
+     */
     @Slf4j
     static class BasicService {
 
